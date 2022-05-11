@@ -1,0 +1,18 @@
+.App {
+  height: 100vh;
+  background-color: #fff9ee;
+  display: flex;
+  flex-direction: column;
+}
+
+.Fixed-Container {
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 1360px;
+}
+
+.App-Container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}

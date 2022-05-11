@@ -1,0 +1,132 @@
+.Vaults {
+    flex-grow: 1;
+    color: #242424;
+    font-family: Menlo;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 100px;
+    max-height: 85vh;
+    overflow: scroll;
+}
+
+.Vault-Card {
+  margin: 16px 0px;
+  border-radius: 16px;
+  padding-left: 24px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbd48e;
+}
+
+.Vault-Card.Small {
+  height: 82px;
+}
+
+.Vault-Card.Small-Open {
+  height: 140px;
+}
+
+.Vault-Card.Small:hover {
+  transform: scale(0.997);
+}
+
+.Vault-Card.Full-Open {
+  height: 440px;
+}
+
+.Vault-Card.Full {
+  height: 380px;
+}
+
+.Vault-Col {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.Vault-Main {
+  color: #242424;
+  font-family: Menlo;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Vault-Img {
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.Vault-Sub {
+  color: rgba(36, 36, 36, 0.5);
+  font-family: Menlo;
+  font-size: 9px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Earnings-Box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: solid 1px #242424;
+  width: 102px;
+  height: 16px;
+}
+
+.Earning-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 4px;
+  font-family: Menlo;
+  font-size: 8px;
+  font-weight: bold;
+  color: rgba(36, 36, 36, 0.5);
+}
+
+.Health-Factor {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px 30px;
+}
+
+.Fields {
+  display: flex;
+  flex-direction: row;
+}
+
+.Shimmer {
+  overflow: hidden;
+  position: relative;
+}
+
+.Shimmer::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  animation: shimmer 1.25s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+

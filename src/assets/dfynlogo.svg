@@ -1,0 +1,13 @@
+<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="24" cy="24" r="24" fill="#FFF9EE"/>
+    <path d="m20.863 28.319.484-1.864c0-.057-.028-.114-.085-.114h-9.177c-.058 0-.085-.056-.085-.113l4.73-17.171c0-.028.059-.057.086-.057h5.1c3.449 0 5.615.918 6.954 2.226a6.822 6.822 0 0 1 1.503 2.338c.333.87.481 1.798.435 2.727a9.21 9.21 0 0 1-.513 3.06 8.53 8.53 0 0 1-1.225 2.365c-.029.057 0 .14.058.14h6.783a.082.082 0 0 1 .05.01.079.079 0 0 1 .033.038.076.076 0 0 1-.025.091L18.21 38.977a.087.087 0 0 1-.138-.03.082.082 0 0 1-.004-.053l2.796-10.575z" fill="url(#a)"/>
+    <defs>
+        <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(24.7296 0 0 24.15 20.678 28.59)">
+            <stop stop-color="#41BEF0"/>
+            <stop offset=".469" stop-color="#828CBE"/>
+            <stop offset=".54" stop-color="#8F80AE"/>
+            <stop offset=".794" stop-color="#BC5A79"/>
+            <stop offset=".917" stop-color="#CD4B64"/>
+        </radialGradient>
+    </defs>
+</svg>

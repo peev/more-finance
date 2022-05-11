@@ -1,0 +1,69 @@
+.Convert-Container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Convert-Overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.Convert{
+    width: 500px;
+    height: 400px;
+    background-color: #fbd48e;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.Convert-Heading {
+    color: #242424;
+    font-family: Menlo;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Convert-Btn {
+    background-color: #242424;
+    height: 34px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Menlo;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff9ee;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Reverse-Img {
+    height: 24px;
+    width: 24px;
+    transform: rotate(90deg);
+}
+
+.Convert-Text {
+    color: #242424;
+    font-family: Menlo;
+    font-size: 12px;
+    margin: 8px 0px;
+}
+
+.Convert-Sub {
+    color: rgba(36, 36, 36, 0.5);
+    font-family: Menlo;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 0px 0px 3px;
+  }

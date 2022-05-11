@@ -1,0 +1,194 @@
+.Landing {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.Landing-Container {
+    width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/landingbg.svg');
+}
+
+.Landing-Logo {
+    height: 80px;
+    width: 80px;
+    margin: 72px auto;
+}
+
+.MCSC {
+    height: 200px;
+    width: 642px;
+    margin: 0px auto;
+}
+
+.Star {
+    height: 64px;
+    width: 64px;
+}
+
+.Arrow-Down {
+    height: 44px;
+    width: 22px;
+    transform: rotate(90deg);
+}
+
+.Left {
+    margin-right: -32px;
+    z-index: 1;
+}
+
+.Right {
+    margin-left: -32px;
+}
+
+.Awaken-Div-Wrapper {
+    margin: 80px auto 40px;
+    display: flex;
+}
+
+.Awaken-Div {
+    height: 64px;
+    width: 342px;
+    background-color: #4d526c;
+    color: #fbd48e;
+    font-size: 18px;
+    font-family: Menlo;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Logo-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.Dfyn-Logo {
+    height: 48;
+    width: 138;
+    margin-right: 121px;
+}
+
+.Polygon-Logo {
+    height: 40;
+    width: 186;
+    margin-right: 121px;
+}
+
+.Router-Logo {
+    height: 132;
+    width: 60;
+}
+
+.Circle {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+.Arrow {
+    height: 66px;
+    width: 28px;
+    margin: 64px auto;
+}
+
+.Title {
+    color: #242424;
+    font-family: Menlo;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto 40px;
+}
+
+.SubTitle {
+    font-family: Menlo;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.Header-Landing {
+    background: #18188d;
+    color: #fff; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+}
+
+.Header-Info {
+    display: flex;
+    color: #fbd48e;
+    align-items: center;
+    font-family: Menlo;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Governance-Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    padding: 7px 8px;
+    margin: 16px 0px;
+    font-family: Menlo;
+    font-size: 12px;
+    font-weight: bold;
+    border: solid 2px #fbd48e;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4d526c;
+    color: #fbd48e;
+}
+
+.Learn-Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 30px;
+    border: solid 2px #4d526c;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4d526c;
+    font-family: Menlo;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+}
+
+.OpenVault-Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 48px;
+    background-color: #ef3e25;
+    border: solid 2px #242424;
+    cursor: pointer;
+    color: #242424;
+    font-family: Menlo;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+}
+
+.Social-Wrapper {
+    display: flex;
+    width: 124px;
+    flex-direction: column;
+    padding-left: 28px;
+    justify-content: center;
+}
