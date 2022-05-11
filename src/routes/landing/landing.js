@@ -1,39 +1,27 @@
 import './landing.css';
-
-import logo from '../../assets/logo.svg'
-import mcsc from '../../assets/mcsc.svg'
-import circle1 from '../../assets/circle1.svg'
-import circle2 from '../../assets/circle2.svg'
-import circle3 from '../../assets/circle3.svg'
-import circle4 from '../../assets/circle4.svg'
-import dfyn from '../../assets/dfyn.svg'
-import polygon from '../../assets/polygon.svg'
-import router from '../../assets/router.svg'
-import star from '../../assets/star.svg'
-import arrow from '../../assets/arrow-down.svg'
-import arrowDown from '../../assets/arrow-landing.svg'
+ 
 import { Link } from 'react-router-dom';
 
 
-const LearnBtn = () => {
-    return (
-        <div
-            className="Learn-Btn">
-            {'LEARN MORE'}
-        </div>
-    )
-}
+// const LearnBtn = () => {
+//     return (
+//         <div
+//             className="Learn-Btn">
+//             {'LEARN MORE'}
+//         </div>
+//     )
+// }
 
-const OpenVaultBtn = () => {
-    return (
-        <Link to={'/home'}>
-            <div
-                className="OpenVault-Btn">
-                {'OPEN VAULT'}
-            </div>
-        </Link>
-    )
-}
+// const OpenVaultBtn = () => {
+//     return (
+//         <Link to={'/home'}>
+//             <div
+//                 className="OpenVault-Btn">
+//                 {'OPEN VAULT'}
+//             </div>
+//         </Link>
+//     )
+// }
 
 const Landing = () => {
     return (

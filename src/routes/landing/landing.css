@@ -7,6 +7,7 @@
 
 .Landing-Container {
     width: 1200px;
+    font-size: 20px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;

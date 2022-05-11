@@ -1,3 +1,29 @@
+
+@font-face {
+	font-family: 'Gotham';
+	src: url(fonts/gotham-black.otf);
+	font-weight: 800;
+}
+
+
+@font-face {
+	font-family: 'Gotham';
+	src: url(fonts/gotham-medium.otf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url(fonts/gotham.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url(fonts/gotham-book.otf);
+	font-weight: 300;
+}
+
 .Header {
     background: #18188d;
     color: #fff;
@@ -8,6 +34,8 @@
     max-width: 100%;
     position: fixed;
 }
+
+
 
 .shell { width: 100%; max-width: 1300px; padding: 0 30px; margin: 0 auto; }
 
