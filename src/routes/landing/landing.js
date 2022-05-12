@@ -1,5 +1,6 @@
 import './landing.css';
- 
+import bgimage from '../../assets/images/More-Finance.jpg';
+
 import { Link } from 'react-router-dom';
 
 
@@ -26,7 +27,7 @@ import { Link } from 'react-router-dom';
 const Landing = () => {
     return (
         <div className="Landing">
-           <section className="section-landing" style={{ backgroundImage: `url(/images/More-Finance.jpg)` }}>
+           <section className="section-landing" style={{ backgroundImage: `url(${bgimage})` }}>
                     <div className="shell">
                         <div className="section-content">
                             <h1 className="section-title">

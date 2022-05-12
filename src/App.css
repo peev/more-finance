@@ -1,9 +1,7 @@
 .App {
-  height: 100vh;
-  background-color: #fff9ee;
-  display: flex;
-  flex-direction: column;
+  
   font-size: 20px;
+  line-height: 1.3;
   font-family: 'Gotham';
 }
 
@@ -18,3 +16,8 @@
   flex-grow: 1;
   flex-direction: row;
 }
+
+
+*,
+*:before,
+*:after { box-sizing: border-box; }

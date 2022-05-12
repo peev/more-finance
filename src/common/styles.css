@@ -37,7 +37,7 @@
 
 
 
-.shell { width: 100%; max-width: 1300px; padding: 0 30px; margin: 0 auto; }
+.shell { width: 100%; max-width: 1460px; padding: 0 30px; margin: 0 auto; }
 
 /* ------------------------------------------------------------ *\
 	logo
@@ -207,7 +207,7 @@
 	socials
 \* ------------------------------------------------------------ */
 
-.socials { list-style: none; display: inline-flex; }
+.socials { list-style: none; display: inline-flex; padding-left: 0; }
 .socials li { margin-right: 25px; }
 .socials a {  text-decoration: none; display: inline-block; padding: 5px; }
 .socials i { display: inline-block; }
@@ -364,6 +364,7 @@ a {
 .section-landing { padding-top: 70px;  font-weight: 300; height: 100vh; min-height: 850px; background-color: #1C1C9C;
 	color: #fff; display: flex; align-items: center; justify-content: center; background-position: center;
 	background-size: cover;
+    
 }
 .section-landing .shell { width: 100%; }
 .section-landing .section-content { width: 50%; }
